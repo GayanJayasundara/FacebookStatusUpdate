@@ -13,6 +13,7 @@
 		B63BAF051ACF64E400974A9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63BAF041ACF64E400974A9A /* Images.xcassets */; };
 		B63BAF081ACF64E400974A9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B63BAF061ACF64E400974A9A /* LaunchScreen.xib */; };
 		B63BAF141ACF64E400974A9A /* FacebookStatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63BAF131ACF64E400974A9A /* FacebookStatusTests.swift */; };
+		B662043A1ADC7447005EA1CE /* iphone.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B66204391ADC7447005EA1CE /* iphone.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B63BAF0D1ACF64E400974A9A /* FacebookStatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookStatusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63BAF121ACF64E400974A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B63BAF131ACF64E400974A9A /* FacebookStatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookStatusTests.swift; sourceTree = "<group>"; };
+		B66204391ADC7447005EA1CE /* iphone.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		B63BAEFA1ACF64E400974A9A /* FacebookStatus */ = {
 			isa = PBXGroup;
 			children = (
+				B66204391ADC7447005EA1CE /* iphone.JPG */,
 				B63BAEFD1ACF64E400974A9A /* AppDelegate.swift */,
 				B63BAEFF1ACF64E400974A9A /* ViewController.swift */,
 				B63BAF011ACF64E400974A9A /* Main.storyboard */,
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B662043A1ADC7447005EA1CE /* iphone.JPG in Resources */,
 				B63BAF031ACF64E400974A9A /* Main.storyboard in Resources */,
 				B63BAF081ACF64E400974A9A /* LaunchScreen.xib in Resources */,
 				B63BAF051ACF64E400974A9A /* Images.xcassets in Resources */,
@@ -405,6 +409,7 @@
 				B63BAF191ACF64E400974A9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B63BAF1A1ACF64E400974A9A /* Build configuration list for PBXNativeTarget "FacebookStatusTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				B63BAF1C1ACF64E400974A9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

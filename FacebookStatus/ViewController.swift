@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         if SLComposeViewController.isAvailableForServiceType(SLServiceTypeFacebook){
             var controller = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
             controller.setInitialText("Swift Fb Post Test")
+            controller.addImage(UIImage(named: "iphone.JPG"))
             self.presentViewController(controller, animated: true, completion: nil)
         } else{
             println("No Facebook account found on device")
